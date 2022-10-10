@@ -10,7 +10,7 @@ const App = () => {
   return (
     <AppContext.Provider value={{ state, stateMutators }}>
       <AppBody />
-      { state.isNavBarOpen ? <Sidebar /> : null}
+      <Sidebar />
     </AppContext.Provider>
 
   );
